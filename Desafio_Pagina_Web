@@ -1,0 +1,258 @@
+<html>
+    <head>
+        <title>Desafio_de_Projeto_HTML</title>
+    </head>
+    <body>
+        <h1 id = "inicio">Aprendendo HTML</h1>
+        <hr/>
+        <h2><font color = "red"><u>Indíce:</u></font></h2>
+        <ul>
+            <li><a href = "#ferramentas">Ferramentas utilizadas</a></li>
+            <li><a href = "#inspetor">Usando o Inspetor de Elementos</a></li>
+            <li><a href = "#estrutura">Estrutura básica do HTML</a></li>
+            <li><a href = "#tags">Falando sobre Tags</a></li>
+            <li><a href = "#atributos">Atributos básicos</a></li>
+            <li><a href = "#textos">Textos</a></li>
+            <li><a href = "#listas">Listas Ordenadas e Não Ordenadas</a></li>
+            <li><a href = "#links">Links</a></li>
+            <li><a href = "#referencias">Referências</a></li>
+        </ul>
+        
+        <h3 id = "ferramentas"><font color = "red"><u>Ferramentas utilizadas</u></font></h3>
+        <small><a href = "#inicio"><mark>(voltar)</mark></a></small>
+        <p>
+        As ferramentas de desenvolvimento web facilita a vida do programador de qualquer linguagem de programação e para
+        desenvolvedor HTML não é diferente. Existem diversas ferramentas para essa finalidade, porém temos algumas mais
+        comum dentro os desenvolvedores. São elas.
+        <br>
+            <ul>
+                <li>GitHub;</li>
+                <li>Sublime Text;</li>
+                <li>Marvel;</li>
+                <li>Notepad;</li>
+                <li>Visual Studio Code;</li>
+                <li>Node Package Manager (npm),</li>
+                 <li>Entre outras.</li>
+            </ul>
+        </p>
+
+        <h3 id = "inspetor"><font color = "red"><u>Usando o Inspetor de Elementos</u></font></h3>
+        <small><a href = "#inicio"> <mark>(voltar)</a></mark></small>
+        <p>
+            A ferramenta de inspecionar elemento é um utilitário que permite visualizar o código-fonte subjacente de 
+            qualquer página web. Além disso, você pode usá-la para fazer alterações temporárias e ver os resultados em 
+            tempo real, deixando o código-fonte original intacto.
+        </p>
+
+        <h3 id = "estrutura"><font color = "red"><u>Estrutura básicoa do HTML</u></font></h3>
+        <small><a href = "#inicio"> <mark>(voltar)</mark></a></small>
+        <p>
+            Um documento HTML válido precisa seguir obrigatoriamente a estrutura composta pelas tags <.html>, <.head> e <.body>. Esta estrutura está informada em uma documentação que descreve todos os detalhes do HTML, no caso as tags e atributos, 
+            e como os navegadores devem considerar e interpretar estas tags, esta documentação é chamada de "especificação do HTML", e através 
+            do que está declarado nela que é possível entender se um documento HTML válido. Um documento HTML inválido é carregado pelo navegador, 
+            porém em um "modo de compatibilidade", vamos entender melhor sobre isto logo mais.
+        <br><br>
+            Abaixo, vamos conhecer em detalhes cada uma das tags estruturais obrigatórias:
+            <br>
+                <ul>
+                    <li><strong><.html> <./html></strong><br>
+                        Esta tag é o elemento básico da estrutura do HTML. Assim sendo, ela conterá todos os elementos do seu documento. 
+                        Todo documento HTML deve iniciar e finalizar com essa tag;
+                    </li>
+
+                    <li><strong><.head> <./head></strong><br>
+                        Essa tag delimita o cabeçalho do documento. Não possui nenhum valor visível, porém é capaz de transmitir ao navegador 
+                        diversas informações muito úteis e essenciais a uma boa apresentação do seu documento HTML;
+                        <br>
+                        A especificação do HTML obriga a presença da tag de conteúdo <.title> dentro da <.head>, permitindo definir 
+                        o título do documento, que poder ser visto na barra de título ou aba da janela do navegador. Caso contrário, 
+                        a página não será um documento HTML válido;
+                    </li>
+
+                    <li><strong><.title> <./title></strong><br>
+                        Essa tag define o título da sua página, o nome que aparecerá na sua aba, janela ou guia. Por esta razão, a tag >title> 
+                        é de grande importância para o SEO;
+                    </li>
+
+                    <li><strong><.body> <./body></strong><br>
+                        inalmente, a tag que representa o corpo do documento. Em síntese, é nessa tag que todos os elementos visíveis do seu site 
+                        devem ser inseridos.
+                    </li>
+                </ul>
+        </p>
+
+        <h3 id = "tags"><font color = "red"><u>Falando sobre Tags</u></font></h3>
+        <small><a href = "#inicio"> <mark>(voltar)</mark></a></small>
+        <p>
+            As tags são usadas para informar ao navegador a estrutura do site. Ou seja: quando se escreve um código em HTML, as tags serão 
+            interpretadas pelo navegador, produzindo assim a estrutura e o conteúdo visual da página.
+            <br>
+            A principal característica das tags é estarem sempre dentro dos sinais de chevron (sinal de “maior que” e “menor que”), ou seja: < >.
+            <br>
+            As tags HTML são divididas em dois tipos: as que precisam de fechamento e as que não precisam de fechamento. As tags que precisam 
+            de fechamento possuem a sintaxe <.tag> <./tag>, já as que não precisam de fechamento possuem como estrutura <.tag/>.
+            <br>
+            Além disso, uma mesma tag pode receber um ou mais atributos, que possuirá um valor que modifica sua estrutura ou funcionalidade.
+        </p>
+
+        <h3 id = "atributos"><font color = "red"><u>Atributos básicos</u></font></h3>
+        <small><a href = "#inicio"> <mark>(voltar)</mark></a></small>
+        <p>
+            Os atributos são usados para personalizar as tags, modificando sua estrutura ou funcionalidade. Igualmente, os atributos são utilizados 
+            para atribuir uma classe ou id a um elemento.
+            <br>
+            A maioria das tags tem seus próprios atributos. Contudo, existem alguns atributos genéricos que podem ser utilizados na maioria das tags HTML, 
+            vamos estudá-los:
+            <br>
+            <br>
+            <strong>Exemplos:</strong>
+            <br>
+                <ul>
+                    <li><strong>class</strong><br/>
+                        Atribui uma classe ao elemento (uma classe pode ser utilizada para um ou mais elementos);
+                    </li>
+
+                    <li><strong>id</strong><br/>
+                        Atribui um id ao elemento (um id deve ser único, ou seja atribuído a um único elemento);
+                    </li>
+
+                    <li><strong>style</strong><br/>
+                        Permite incluir elementos CSS (estilos) dentro da tag;
+                    </li>
+
+                    <li><strong>lang</strong><br/>
+                        Define o idioma principal do elemento;
+                    </li>
+
+                    <li><strong>title</strong><br/>
+                        Define o título do elemento;
+                    </li>
+
+                    <li><strong>alt</strong><br/> 
+                        Define um texto alternativo e, por isso, é muito utilizado em imagens, auxilia nas práticas de SEO;
+                    </li>
+
+                    <li><strong>hidden</strong><br/>
+                        Oculta o elemento;
+                    </li>
+
+                    <li><strong>align</strong><br/>
+                        Permite definir o padrão de alinhamento desse elemento, como por exemplo: right, center, left e justify;
+                    </li>
+
+                    <li><strong>width</strong><br/>
+                        Define uma largura para o elemento;
+                    </li>
+
+                    <li><strong>height</strong><br/>
+                        Define uma altura para o elemento.
+                    </li>
+                </ul>
+Essas são os principais atributos, porém existem diversos outros que devem ser estudados e podem ser utilizados no seu código.
+        </p>
+
+        <h3 id = "textos"><font color = "red"><u>Textos</u></font></h3>
+        <small><a href = "#inicio"> <mark>(voltar)</mark></a></small>
+        <p>
+            As tags de texto definem textos, estilos de fonte, parágrafos, spans, quebras de linhas, etc. Vamos conhecê-las:
+            <ul>
+                <li><strong><.p> <./p></strong><br/> 
+                    Principal tag de texto, compõe um parágrafo;
+                </li>
+                <li><strong><.span> <./span></strong><br/> 
+                    Apesar de ter uma funcionalidade e características parecidas com os parágrafos, costumam ser utilizadas apenas 
+                    para pequenas informações, como legendas de um formulário, legendas de uma imagem, etc. Também pode ser utilizada para 
+                    formar um container;
+                </li>
+                <li><strong><.pre> <./pre></strong><br/>
+                    Tag utilizada para representar texto pré-formatado. Muito utilizada para inserir códigos;
+                </li>
+                <li><strong><.b> <./b></strong><br/> 
+                    Transforma o conteúdo em negrito;
+                </li>
+                <li><strong><.i> <./i></strong><br/>
+                    Transforma o conteúdo em itálico;
+                </li>
+                 <li><strong><.br/></strong><br/>
+                    Essa tag não necessita de fechamento, ela executa a função de quebra de linha.
+                </li>
+                <li><strong><.hr/></strong><br/>
+                    Essa tag não necessita de fechamento, ela forma uma linha horizontal.
+                </li>
+            </ul>
+        </p>
+
+        <h3 id = "listas"><font color = "red"><u>Listas</u></font></h3>
+        <small><a href = "#inicio"> <mark>(voltar)</mark></a></small><br><br>
+            Não são raros os casos em que queremos exibir uma listagem em nossas páginas. O HTML tem algumas tags definidas para que possamos fazer 
+            isso de maneira correta. A lista mais comum é a lista não-ordenada definida pela tag <.ul> (unordered list).
+        <br>
+        <br>
+            Note que, para cada item da lista não-ordenada, utilizamos uma marcação de item de lista <.li> (list item). 
+            No exemplo acima, utilizamos uma estrutura composta na qual o segundo item da lista contém uma nova lista.
+            A mesma tag de item de lista <.li> é utilizada quando demarcamos uma lista ordenada.
+
+        <h3 id = "links"><font color = "red"><u>Links</u></font></h3>
+        <small><a href = "#inicio"> <mark>(voltar)</mark></a></small>
+        <p>
+            Quando precisamos indicar que um trecho de texto se refere a um outro conteúdo, seja ele no mesmo documento 
+            ou em outro endereço (por exemplo uma página na web), utilizamos a tag de âncora <.a>.
+            <br>
+            Existem três diferentes usos para as âncoras. Um deles é a definição de links:
+            <br><br>
+            <strong>Exemplo:</strong>>
+            Visite o site da <.a href="https://www.caelum.com.br">Caelum<./a>.
+            <br><br>
+            Note que a âncora está demarcando apenas a palavra Caelum de todo o conteúdo do parágrafo exemplificado. Isso 
+            significa que, ao clicarmos com o cursor do mouse na palavra Caelum, o navegador redirecionará o usuário para 
+            o site da Caelum, indicado no atributo href.
+            <br>
+            Podemos adicionar o atributo target="" para especificar onde que essa página irá carregar. Por padrão a página 
+            irá abrir na mesma aba da página que tem o link, mas se quisermos que a página abra em outra aba podemos colocar
+            o valor _blank dentro desse atributo:
+            <br>
+            <.a href="https://www.caelum.com.br" target="_blank">
+            <br> <br>
+            Outro uso para a tag de âncora é a demarcação de destinos para links dentro do próprio documento, o que chamamos
+            de bookmark.
+            <br><br>
+            <strong>Exemplo:</strong><br>
+            <.p>Mais informações <.a href="#info">aqui<./a>.<./p>
+            <br>
+            <.p>Conteúdo da página...<./p>
+            <br>
+            <.h2 id="info">Mais informações sobre o assunto:<./h2>
+            <br>
+            <.p>Informações...</.p>
+            <br><br>
+            De acordo com o exemplo acima, ao clicarmos sobre a palavra aqui, demarcada com um link, o usuário será 
+            levado à porção da página onde o bookmark info é visível. Bookmark é o elemento que tem o atributo id.
+            <br>
+            <br>
+            É possível, com o uso de um link, levar o usuário a um bookmark presente em outra página.
+            <br><br>
+            <strong>Exemplo:</strong><br>
+            <.a href="http://www.caelum.com.br/curso/wd43/#contato">Entre em contato sobre o curso<./a>
+            O exemplo acima fará com que o usuário que clicar no link seja levado à porção da página indicada no endereço,
+            especificamente no ponto onde o bookmark contato seja visível.
+            <br> <br>
+            O outro uso para a tag de âncora é a demarcação de destinos para links dentro do próprio site, mas não na 
+            mesma página que estamos. Por exemplo, estamos na página sobre.html e queremos um link para a página index.html.
+            <br><br>
+            <strong>Exemplo:</strong><br>
+            <.p>Acesse <.a href="index.html">nossa loja<./a>.<./p>
+            <br>
+        </p>
+        
+        <h3 id = "referencias"><font color = "red"><u>Referências</u></font></h3>
+        <small><a href = "#inicio"> <mark>(voltar)</mark></a></small>
+        <br><br>
+
+        <blockquote><strong>Estrutura HTML =></strong> <a href="https://www.youtube.com/watch?v=oZvuH9_IvwI&pp=ygUPZXN0cnV0dXJhIGh0bcOn">Como Entender a Estrutura de Elementos de uma Página HTML</a></blockquote>
+        <blockquote><strong>Atributos => </strong><a href="https://www.youtube.com/watch?v=-u0DyDbH1Ek">Atributos HTML</a></blockquote>
+        <blockquote><strong>Tags => </strong><a href="https://www.youtube.com/watch?v=FhedwpmefOw">Tags HTML</a></blockquote>
+        <blockquote><strong>Listas => </strong><a href="https://www.youtube.com/watch?v=pg7PFY_ozuM">Listas HTML</a></blockquote>
+        <blockquote><strong>Links => </strong><a href="https://www.youtube.com/watch?v=LeOVXQDsAIY">Links HTML</a></blockquote>
+
+    </body>
+</html>
